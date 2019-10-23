@@ -16,10 +16,10 @@
  * 需要添加新的类库时，先查询本列表和项目中是否已引用类似功能的类库，尽量不要添加重复功能的类库
  */
 project.ext {
-    compileSdkVersion = 27
-    buildToolsVersion = '27.0.3'
+    compileSdkVersion = 28
+    buildToolsVersion = '28.0.3'
     minSdkVersion = 16
-    targetSdkVersion = 27
+    targetSdkVersion = 28
 
     //主app
     module_appApplicationId = 'yang.cehome.com.mvvmdemo'
@@ -30,7 +30,7 @@ project.ext {
     //引用类库的版本号
     dependVersion = [
             kotlin_version     : '1.2.51',
-            support_version    : '27.1.1',
+            support_version    : '28.0.0',
             databinding_version: '3.1.4',
             retrofit2_version  : '2.3.0',
             gson_version       : '2.8.5',
